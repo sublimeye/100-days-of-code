@@ -34,6 +34,13 @@ func (l *List) Insert(element, at *Node) *Node {
 	return element
 }
 
+func (n *Node) Next() *Node {
+	if next := n.next; n.list != nil && next != &n.list.head {
+		return next
+	}
+	return nil
+}
+
 func (l *List) InsertValue(value interface{}, at *Node) *Node {
 	return l.Insert(&Node{value: value}, at)
 }
@@ -44,6 +51,12 @@ func (l *List) PushFront(value interface{}) *Node {
 
 func (l *List) Length() int {
 	return l.length
+}
+
+func (l *List) Print() {
+	for first := l.head.next; first != nil; first = first.Next() {
+		fmt.Println("'v: '", first.value)
+	}
 }
 
 // Init
@@ -59,11 +72,9 @@ func (l *List) Length() int {
 
 func main() {
 	my := NewList()
-	fmt.Println(my.Length())
 	my.PushFront("test")
 	my.PushFront("one")
 	my.PushFront("two")
 	my.PushFront("three")
-	fmt.Println(my)
-	fmt.Println(my.Length())
+	my.Print()
 }
