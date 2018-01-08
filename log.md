@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 5: Jan 7, 2018
+**Today's Progress**: #codewars and #golang again
+**Thoughts:** Feeling better with simple Go stuff. Although noticed a disadvantage in codewars - I spend more time on algorithm/kata solving than actual code writing. I think at this point it would be more helpful to focus on language specifics, data types manipulations, etc.
+
 ### Day 4: Jan 6, 2018
 **Today's Progress**: #codewars, fundamentals and simple data types manipulations
 **Thoughts:** I think doing simple codewars is a better option at this point compared to more advanced language usage. I'll try to stick with codewars for a few more days before jumping into more advanced stuff.

@@ -18,12 +18,11 @@ func centurySimpleMath(year int) int {
 	return (year + 99) / 100
 }
 
-// codewars better / shorter / simplier* solution
 func century2(year int) int {
 	return (year-1)/100 + 1
 }
 
-func main() {
+func main2() {
 	fmt.Println(century(1900)) // 19
 	fmt.Println(century(1990)) // 20
 	fmt.Println(century(2001)) // 21
