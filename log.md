@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 6: Jan 8, 2018
+**Today's Progress**: project file structure and package
+**Thoughts:** Very lazy day, was mostly reading The Go Programming Language book
+
 ### Day 5: Jan 7, 2018
 **Today's Progress**: #codewars and #golang again
 **Thoughts:** Feeling better with simple Go stuff. Although noticed a disadvantage in codewars - I spend more time on algorithm/kata solving than actual code writing. I think at this point it would be more helpful to focus on language specifics, data types manipulations, etc.
