@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 7: Jan 10, 2018
+**Today's Progress**: Read the Go book and finished a couple of exercises from the book.
+**Thoughts:** Feeling super tired. Started coding after 1am and ended up at 2:52AM. I should improvise and do 100days task when I'm not dying for sleep.
+
+### Day 7: Jan 9, 2018
+**Today's Progress**: Read a little bit of Go book.
+**Thoughts:** Tired and unproductive
+
 ### Day 6: Jan 8, 2018
 **Today's Progress**: project file structure and package
 **Thoughts:** Very lazy day, was mostly reading The Go Programming Language book
