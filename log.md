@@ -1,6 +1,10 @@
 # 100 Days Of Code - Log
 
-### Day 7: Jan 10, 2018
+### Day 9: Jan 11, 2018
+**Today's Progress**: Go Book. Maps.
+**Thoughts:** Do not try to code after work :)
+
+### Day 8: Jan 10, 2018
 **Today's Progress**: Read the Go book and finished a couple of exercises from the book.
 **Thoughts:** Feeling super tired. Started coding after 1am and ended up at 2:52AM. I should improvise and do 100days task when I'm not dying for sleep.
 
