@@ -1,8 +1,16 @@
 # 100 Days Of Code - Log
 
-### Day 11: Jan 11, 2018
+### Day 12: Jan 14, 2018
+**Today's Progress**:
+**Thoughts:**
+
+### Day 11: Jan 13, 2018
 **Today's Progress**: Skipped.
 **Thoughts:** Haven't planned properly. Skipped the coding.
+
+### Day 10: Jan 12, 2018
+**Today's Progress**: Go. Missed to log.
+**Thoughts:** =_=
 
 ### Day 9: Jan 11, 2018
 **Today's Progress**: Go Book. Maps.
