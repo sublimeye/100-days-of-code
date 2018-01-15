@@ -43,7 +43,7 @@ func exercise41() {
 	fmt.Printf("\n %v \n %x", sha1, x)
 }
 
-func main() {
-	exercise41()
-	// arraysAsMaps()
-}
+// func main() {
+// 	exercise41()
+// 	// arraysAsMaps()
+// }
