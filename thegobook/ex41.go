@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"sort"
+	"time"
 )
 
 func Exercise43() {
@@ -215,8 +216,20 @@ func main() {
 		log.Fatal(err)
 	}
 
+	// sort by CreatedAt
+	sort.Slice(result.Items, func(i, j int) bool {
+		return result.Items[i].CreatedAt.Before(result.Items[j].CreatedAt)
+	})
+
 	fmt.Printf("%d issues:\n", result.TotalCount)
 	for _, item := range result.Items {
-		fmt.Printf("#%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		year, month, _, _, _, _ := TimeDiff(item.CreatedAt, time.Now())
+		if year > 1 {
+			fmt.Printf("[More than year] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		} else if year <= 1 && month >= 1 {
+			fmt.Printf("[Less than year] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		} else {
+			fmt.Printf("[Less than month] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		}
 	}
 }

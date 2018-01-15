@@ -1,8 +1,8 @@
 # 100 Days Of Code - Log
 
 ### Day 12: Jan 14, 2018
-**Today's Progress**:
-**Thoughts:**
+**Today's Progress**: Golang. JSON and Gitlab API
+**Thoughts:** sort.Slice, json, time.Before
 
 ### Day 11: Jan 13, 2018
 **Today's Progress**: Skipped.
