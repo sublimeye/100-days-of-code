@@ -3,8 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"net/url"
+	"os"
+	"sort"
 	"strings"
 	"time"
 )
@@ -99,4 +102,29 @@ func TimeDiff(a, b time.Time) (year, month, day, hour, min, sec int) {
 	}
 
 	return
+}
+
+func runSearchIssues() {
+
+	result, err := SearchIssues(os.Args[1:])
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// sort by CreatedAt
+	sort.Slice(result.Items, func(i, j int) bool {
+		return result.Items[i].CreatedAt.Before(result.Items[j].CreatedAt)
+	})
+
+	fmt.Printf("%d issues:\n", result.TotalCount)
+	for _, item := range result.Items {
+		year, month, _, _, _, _ := TimeDiff(item.CreatedAt, time.Now())
+		if year > 1 {
+			fmt.Printf("[More than year] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		} else if year <= 1 && month >= 1 {
+			fmt.Printf("[Less than year] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		} else {
+			fmt.Printf("[Less than month] #%-5d %v %9.9s %.55s\n", item.Number, item.CreatedAt, item.User.Login, item.Title)
+		}
+	}
 }

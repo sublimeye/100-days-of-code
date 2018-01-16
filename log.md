@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 13: Jan 15, 2018
+**Today's Progress**: Go. Go routines, parallel download, xkcd index
+**Thoughts:** The language is still frustrating. But mostly for newer stuff like go routines, interfaces, pointers. Overall feels like I'm becoming more confident.
+
 ### Day 12: Jan 14, 2018
 **Today's Progress**: Golang. JSON and Gitlab API
 **Thoughts:** sort.Slice, json, time.Before
