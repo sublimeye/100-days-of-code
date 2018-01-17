@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 14: Jan 16, 2018
+**Today's Progress**: xkcd tool
+**Thoughts:** github, parallel download, save json
+
 ### Day 13: Jan 15, 2018
 **Today's Progress**: Go. Go routines, parallel download, xkcd index
 **Thoughts:** The language is still frustrating. But mostly for newer stuff like go routines, interfaces, pointers. Overall feels like I'm becoming more confident.
