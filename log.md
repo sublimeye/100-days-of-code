@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 15: Jan 17, 2018
+**Today's Progress**: Exercise 4.12 XKCD tool
+**Thoughts:** Wow, I feel much better after actual coding. Although the code is super messy.
+
 ### Day 14: Jan 16, 2018
 **Today's Progress**: xkcd tool
 **Thoughts:** github, parallel download, save json
