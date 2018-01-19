@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 16: Jan 18, 2018
+**Today's Progress**: templates, html parsing, functions
+**Thoughts:** Going through
+
 ### Day 15: Jan 17, 2018
 **Today's Progress**: Exercise 4.12 XKCD tool
 **Thoughts:** Wow, I feel much better after actual coding. Although the code is super messy.
