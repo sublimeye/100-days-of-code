@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 17: Jan 19, 2018
+**Today's Progress**:
+**Thoughts:**
+
 ### Day 16: Jan 18, 2018
 **Today's Progress**: templates, html parsing, functions
 **Thoughts:** Going through
